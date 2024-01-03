@@ -1,3 +1,12 @@
+.container-section{
+    width: 100%;
+    padding: 80px 0 54px;
+    position: relative;
+    text-align: center;
+    overflow:hidden;
+    
+}
+
 .text-center h1 {
     position: relative;
     vertical-align: middle;
