@@ -1,0 +1,16 @@
+.logonegro{
+    display: block;
+}
+
+.logoblanco{
+    display: none;
+}
+
+.menu .navbar ul li a{
+    color: #555;
+}
+
+ .menu .navbar ul li a:hover {
+    color:#3C8ECA;
+
+}

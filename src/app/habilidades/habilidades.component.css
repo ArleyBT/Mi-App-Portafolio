@@ -1,0 +1,91 @@
+.linea{
+    box-sizing: border-box;
+    color: #555;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 40px;
+    opacity: 60%;
+} 
+
+.container-habilidades{
+    padding-top: 40px; 
+    overflow: hidden; 
+}
+
+.titulo-habilidades h2{
+    text-align: left;
+    color: #555;
+    font-size: 23px;
+    align-items: left;
+    margin-left: 80px;
+    margin-bottom: 40px;
+}
+
+.tabla{
+    width: 1300px;
+    text-align: left;
+    margin-left: 80px;
+}
+
+
+.linea-gris{
+    border-radius: 2px;
+    display: block;
+    height: 1px;
+    position: relative;
+    width: 100%;
+    background: #ddd;
+    margin-bottom: 40px;
+}
+
+.container-habilidades{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    text-align: left; 
+    position: relative;
+    width: 1300px;    
+}
+
+
+.habilidad{ 
+    color: rgb(92, 92, 92);
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-right: 460px;
+  
+}
+
+.reumen-habilidad{
+    margin-top: 60px;
+    margin-left: -140px;  
+    
+}
+
+.progress {
+    height: 15px;
+    width: 65%;
+    border: 1px solid #428bca;
+    border-radius: 5px;
+    background-color: #e6f3fa;
+    margin-bottom: 30px;
+    margin-right: 60px;
+}
+ 
+.progress-bar {
+    height: 100%;
+    background: #428bca;
+    display: flex;
+    align-items: center;
+    transition: width 0.25s;
+    border-radius: 5px;
+}
+ 
+.progress-bar-text {
+    margin-left: 10px;
+    font-weight: bold;
+    color: #cce7f5;
+    font-size: 13px;
+}
