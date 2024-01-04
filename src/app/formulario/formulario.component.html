@@ -49,7 +49,10 @@
            <span id="mensajeError" class="error"></span>
         </div>
 
-        
+        <div *ngIf="motrarMensaje">
+            <p>Llenar bien los campos</p>
+        </div>
+
         <button type="submit" (click)="enviar()" class="btn btn-primary btn-sm">Enviar mesaje</button>
     </form>
 

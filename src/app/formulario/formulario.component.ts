@@ -10,6 +10,7 @@ import { FormControl, FormGroup, ReactiveFormsModule, Validators } from '@angula
   styleUrl: './formulario.component.css'
 })
 export class FormularioComponent {
+  motrarMensaje = false
   contacForm = new FormGroup({
     nombre: new FormControl("", [Validators.required,Validators.minLength(5)]),
     email: new FormControl("", [Validators.required,Validators.email])
@@ -26,5 +27,10 @@ export class FormularioComponent {
   enviar(){
     const estadoformulario =  this.contacForm.status
     console.log(estadoformulario, this.nombre, this.email)
+    console.log(this.contacForm)
+    if(this.contacForm.status=="INVALID"){
+
+    this.motrarMensaje = true
+    }
   }
 }
